@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/dracula.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slides are separated by three dashes (the default) -->
+				<section data-markdown>
+					<script type="text/template">
+						## Grupo #4
+						<b>Integrantes</b>
+						<br>
+						Jefferson Lara
+						<br>
+						Jorge Gagliardo
+						<br>
+						Isaac Sarango
+						---
+						## Tema:
+						Rescate de Animales
+					</script>
+				</section>
+
+				<!-- Images -->
+				<section data-markdown>
+					<script type="text/template">
+						![Sample image](https://img.freepik.com/vector-gratis/ilustracion-rescate-animales-dibujados-mano_23-2150219157.jpg?w=740&t=st=1711423513~exp=1711424113~hmac=63cb9fd0ae7d72afc09c29680e1e24c23447c3520bcb62e77ff264135dfeefc6)
+					</script>
+				</section>
+
+				<!-- Slides are separated by regexp matching newline + three dashes + newline, vertical slides identical but two dashes -->
+				<section
+				data-markdown
+				data-separator="^\n---\n$"
+				data-separator-vertical="^\n--\n$"
+				>
+					<script type="text/template">
+						## Objetivo
+
+						--
+
+						<!-- ## Demo 2 -->
+						<p style="text-align: justify" >El objetivo del rescate de animales en emergencias es ubicar, rescatar y atender de manera segura y efectiva a los animales domésticos, silvestres o de granja que se encuentren en situaciones de emergencia o desastre. Esto se hace para salvaguardar su vida e integridad mediante acciones coordinadas y seguras. </p>
+					</script>
+				</section>
+
+				<section>
+					<section data-transition="zoom">
+						<h3>Alcance</h3>
+					</section>
+					<section data-transition="concave">
+						<h3>1. Rescate de Animales en Emergencias</h3>
+						<p style="text-align: justify">
+						El objetivo del rescate de animales en emergencias es ubicar,
+						rescatar y atender de manera segura y efectiva a los animales
+						domésticos, silvestres o de granja que se encuentren en
+						situaciones de emergencia o desastre. Esto se hace para
+						salvaguardar su vida e integridad mediante acciones coordinadas y
+						seguras1. A nivel mundial, existen docenas de organizaciones,
+						asociaciones y fundaciones que tienen como misión central expandir
+						el alcance de esta valiosa labor, la cual es sumamente agradecida
+						por los mismos animales rescatados
+						</p>
+					</section>
+					<section data-transition="convex-in fade-out">
+						<h3>2. Contribución Individual</h3>
+						<p style="text-align: justify">
+						Uno puede contribuir al rescate animal de diversas maneras. A
+						veces, una simple llamada puede cambiar la vida de un animal
+						necesitado. No es necesario adoptar o tener conocimientos médicos
+						para brindar ayuda. Comunicarse con instituciones y reportar casos
+						ya es un apoyo significativo.
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-transition="zoom">
+						<h3>Recomendaciones</h3>
+					</section>
+					<section data-transition="concave">
+						<!-- Element attributes -->
+						<section data-markdown>
+						<script type="text/template">
+							## <h3>1. Salvar especies en peligro de extinción</h3>
+							- Contribuye a la conservación de especies salvajes en peligro de extinción.
+							- Combate la caza furtiva y el tráfico de animales.
+							- Rescata animales que han sido adoptados de manera irresponsable.
+						</script>
+						</section>
+					</section>
+
+					<section data-transition="concave">
+						<!-- Element attributes -->
+						<section data-markdown>
+						<script type="text/template">
+							## <h3>2. Recuperación física y psicológica de animales rescatados</h3>
+							- Brinda atención veterinaria completa, incluyendo esterilización, vacunación y desparasitación.
+							- Identifica a los animales con microchips para su seguimiento.
+							- Asegura su bienestar hasta encontrarles un hogar permanente.
+						</script>
+						</section>
+					</section>
+				</section>
+
+				<section>
+					<h2>Gracias por tu atención</h2>
+					<audio src="assets/beeping.wav" controls></audio>
+				</section>
+
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+		});
+		</script>
+	</body>
+</html>
